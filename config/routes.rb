@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :fact do
+    resources :retail_sales
+  end
   namespace :dimension do
     resources :products
     resources :dates

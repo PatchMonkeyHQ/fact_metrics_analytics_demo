@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_01_07_143409) do
+ActiveRecord::Schema[7.1].define(version: 2025_01_07_152721) do
   create_table "dimension_dates", force: :cascade do |t|
     t.integer "calendar_week_number"
     t.date "date"
@@ -34,6 +34,23 @@ ActiveRecord::Schema[7.1].define(version: 2025_01_07_143409) do
     t.string "category_description"
     t.string "department_description"
     t.string "fat_content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "fact_retail_sales", force: :cascade do |t|
+    t.date "date"
+    t.integer "dimension_product_id"
+    t.integer "dimension_store_id"
+    t.integer "pos_transaction_number"
+    t.integer "sales_quantity"
+    t.decimal "regular_unit_price"
+    t.decimal "discount_unit_price"
+    t.decimal "net_unit_price"
+    t.decimal "extended_discount_dollar_amount"
+    t.decimal "extended_sales_dollar_amount"
+    t.decimal "extended_cost_dollar_amount"
+    t.decimal "extended_gross_profit_dollar_amount"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

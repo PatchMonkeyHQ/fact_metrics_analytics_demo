@@ -1,0 +1,2 @@
+module Fact::RetailSalesHelper
+end

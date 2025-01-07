@@ -1,0 +1,132 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+retail_sales_fact_1:
+  date: 2023-01-01
+  dimension_product_id: 1
+  pos_transaction_number: 100001
+  sales_quantity: 2
+  regular_unit_price: 3.50
+  discount_unit_price: 3.00
+  net_unit_price: 2.80
+  extended_discount_dollar_amount: 1.40
+  extended_sales_dollar_amount: 5.60
+  extended_cost_dollar_amount: 4.50
+  extended_gross_profit_dollar_amount: 1.10
+
+retail_sales_fact_2:
+  date: 2023-01-02
+  dimension_product_id: 2
+  pos_transaction_number: 100002
+  sales_quantity: 1
+  regular_unit_price: 5.00
+  discount_unit_price: 4.50
+  net_unit_price: 4.00
+  extended_discount_dollar_amount: 0.50
+  extended_sales_dollar_amount: 4.00
+  extended_cost_dollar_amount: 3.20
+  extended_gross_profit_dollar_amount: 0.80
+
+retail_sales_fact_3:
+  date: 2023-01-03
+  dimension_product_id: 3
+  pos_transaction_number: 100003
+  sales_quantity: 3
+  regular_unit_price: 2.00
+  discount_unit_price: 1.80
+  net_unit_price: 1.70
+  extended_discount_dollar_amount: 0.90
+  extended_sales_dollar_amount: 5.10
+  extended_cost_dollar_amount: 4.00
+  extended_gross_profit_dollar_amount: 1.10
+
+retail_sales_fact_4:
+  date: 2023-01-04
+  dimension_product_id: 4
+  pos_transaction_number: 100004
+  sales_quantity: 5
+  regular_unit_price: 1.50
+  discount_unit_price: 1.30
+  net_unit_price: 1.20
+  extended_discount_dollar_amount: 1.00
+  extended_sales_dollar_amount: 6.00
+  extended_cost_dollar_amount: 4.80
+  extended_gross_profit_dollar_amount: 1.20
+
+retail_sales_fact_5:
+  date: 2023-01-05
+  dimension_product_id: 5
+  pos_transaction_number: 100005
+  sales_quantity: 4
+  regular_unit_price: 3.00
+  discount_unit_price: 2.70
+  net_unit_price: 2.50
+  extended_discount_dollar_amount: 2.00
+  extended_sales_dollar_amount: 10.00
+  extended_cost_dollar_amount: 7.50
+  extended_gross_profit_dollar_amount: 2.50
+
+retail_sales_fact_6:
+  date: 2023-01-06
+  dimension_product_id: 1
+  pos_transaction_number: 100006
+  sales_quantity: 2
+  regular_unit_price: 6.00
+  discount_unit_price: 5.50
+  net_unit_price: 5.00
+  extended_discount_dollar_amount: 1.00
+  extended_sales_dollar_amount: 10.00
+  extended_cost_dollar_amount: 8.00
+  extended_gross_profit_dollar_amount: 2.00
+
+retail_sales_fact_7:
+  date: 2023-01-07
+  dimension_product_id: 2
+  pos_transaction_number: 100007
+  sales_quantity: 6
+  regular_unit_price: 4.50
+  discount_unit_price: 4.00
+  net_unit_price: 3.80
+  extended_discount_dollar_amount: 2.50
+  extended_sales_dollar_amount: 22.80
+  extended_cost_dollar_amount: 18.00
+  extended_gross_profit_dollar_amount: 4.80
+
+retail_sales_fact_8:
+  date: 2023-01-08
+  dimension_product_id: 3
+  pos_transaction_number: 100008
+  sales_quantity: 1
+  regular_unit_price: 9.00
+  discount_unit_price: 8.00
+  net_unit_price: 7.50
+  extended_discount_dollar_amount: 0.50
+  extended_sales_dollar_amount: 7.50
+  extended_cost_dollar_amount: 6.00
+  extended_gross_profit_dollar_amount: 1.50
+
+retail_sales_fact_9:
+  date: 2023-01-09
+  dimension_product_id: 1
+  pos_transaction_number: 100009
+  sales_quantity: 8
+  regular_unit_price: 2.75
+  discount_unit_price: 2.50
+  net_unit_price: 2.25
+  extended_discount_dollar_amount: 2.00
+  extended_sales_dollar_amount: 18.00
+  extended_cost_dollar_amount: 14.40
+  extended_gross_profit_dollar_amount: 3.60
+
+retail_sales_fact_10:
+  date: 2023-01-10
+  dimension_product_id: 1
+  pos_transaction_number: 100010
+  sales_quantity: 10
+  regular_unit_price: 5.50
+  discount_unit_price: 5.00
+  net_unit_price: 4.75
+  extended_discount_dollar_amount: 5.00
+  extended_sales_dollar_amount: 47.50
+  extended_cost_dollar_amount: 38.00
+  extended_gross_profit_dollar_amount: 9.50
+

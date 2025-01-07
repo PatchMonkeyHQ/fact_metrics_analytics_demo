@@ -1,0 +1,2 @@
+json.extract! fact_retail_sale, :id, :date, :dimension_product_id, :dimension_store_id, :pos_transaction_number, :sales_quantity, :regular_unit_price, :discount_unit_price, :net_unit_price, :extended_discount_dollar_amount, :extended_sales_dollar_amount, :extended_cost_dollar_amount, :extended_gross_profit_dollar_amount, :created_at, :updated_at
+json.url fact_retail_sale_url(fact_retail_sale, format: :json)

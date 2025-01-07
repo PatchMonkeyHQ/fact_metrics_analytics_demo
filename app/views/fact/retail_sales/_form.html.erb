@@ -1,0 +1,77 @@
+<%= form_with(model: fact_retail_sale) do |form| %>
+  <% if fact_retail_sale.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(fact_retail_sale.errors.count, "error") %> prohibited this fact_retail_sale from being saved:</h2>
+
+      <ul>
+        <% fact_retail_sale.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :dimension_product_id, style: "display: block" %>
+    <%= form.number_field :dimension_product_id %>
+  </div>
+
+  <div>
+    <%= form.label :dimension_store_id, style: "display: block" %>
+    <%= form.number_field :dimension_store_id %>
+  </div>
+
+  <div>
+    <%= form.label :pos_transaction_number, style: "display: block" %>
+    <%= form.number_field :pos_transaction_number %>
+  </div>
+
+  <div>
+    <%= form.label :sales_quantity, style: "display: block" %>
+    <%= form.number_field :sales_quantity %>
+  </div>
+
+  <div>
+    <%= form.label :regular_unit_price, style: "display: block" %>
+    <%= form.text_field :regular_unit_price %>
+  </div>
+
+  <div>
+    <%= form.label :discount_unit_price, style: "display: block" %>
+    <%= form.text_field :discount_unit_price %>
+  </div>
+
+  <div>
+    <%= form.label :net_unit_price, style: "display: block" %>
+    <%= form.text_field :net_unit_price %>
+  </div>
+
+  <div>
+    <%= form.label :extended_discount_dollar_amount, style: "display: block" %>
+    <%= form.text_field :extended_discount_dollar_amount %>
+  </div>
+
+  <div>
+    <%= form.label :extended_sales_dollar_amount, style: "display: block" %>
+    <%= form.text_field :extended_sales_dollar_amount %>
+  </div>
+
+  <div>
+    <%= form.label :extended_cost_dollar_amount, style: "display: block" %>
+    <%= form.text_field :extended_cost_dollar_amount %>
+  </div>
+
+  <div>
+    <%= form.label :extended_gross_profit_dollar_amount, style: "display: block" %>
+    <%= form.text_field :extended_gross_profit_dollar_amount %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
