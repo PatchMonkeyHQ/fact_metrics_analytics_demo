@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   namespace :dimension do
+    resources :products
     resources :dates
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

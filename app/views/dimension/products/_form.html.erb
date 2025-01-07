@@ -1,0 +1,47 @@
+<%= form_with(model: dimension_product) do |form| %>
+  <% if dimension_product.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(dimension_product.errors.count, "error") %> prohibited this dimension_product from being saved:</h2>
+
+      <ul>
+        <% dimension_product.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :product_description, style: "display: block" %>
+    <%= form.text_field :product_description %>
+  </div>
+
+  <div>
+    <%= form.label :brand_description, style: "display: block" %>
+    <%= form.text_field :brand_description %>
+  </div>
+
+  <div>
+    <%= form.label :subcategory_description, style: "display: block" %>
+    <%= form.text_field :subcategory_description %>
+  </div>
+
+  <div>
+    <%= form.label :category_description, style: "display: block" %>
+    <%= form.text_field :category_description %>
+  </div>
+
+  <div>
+    <%= form.label :department_description, style: "display: block" %>
+    <%= form.text_field :department_description %>
+  </div>
+
+  <div>
+    <%= form.label :fat_content, style: "display: block" %>
+    <%= form.text_field :fat_content %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

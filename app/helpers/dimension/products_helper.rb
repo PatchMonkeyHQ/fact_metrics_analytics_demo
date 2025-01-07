@@ -1,0 +1,2 @@
+module Dimension::ProductsHelper
+end

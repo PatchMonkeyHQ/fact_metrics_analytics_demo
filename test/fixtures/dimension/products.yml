@@ -1,0 +1,83 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+product_1:
+  id: 1
+  product_description: "Baked Well Light Sourdough Fresh Bread"
+  brand_description: "Baked Well"
+  subcategory_description: "Fresh"
+  category_description: "Bread"
+  department_description: "Bakery"
+  fat_content: "Reduced Fat"
+
+product_2:
+  id: 2
+  product_description: "Fluffy Sliced Whole Wheat"
+  brand_description: "Fluffy"
+  subcategory_description: "Pre-Packaged"
+  category_description: "Bread"
+  department_description: "Bakery"
+  fat_content: "Regular Fat"
+
+product_3:
+  id: 3
+  product_description: "Fluffy Light Sliced Whole Wheat"
+  brand_description: "Fluffy"
+  subcategory_description: "Pre-Packaged"
+  category_description: "Bread"
+  department_description: "Bakery"
+  fat_content: "Reduced Fat"
+
+product_4:
+  id: 4
+  product_description: "Light Mini Cinnamon Rolls"
+  brand_description: "Light"
+  subcategory_description: "Pre-Packaged"
+  category_description: "Sweetened Bread"
+  department_description: "Bakery"
+  fat_content: "Non-Fat"
+
+product_5:
+  id: 5
+  product_description: "Diet Lovers Vanilla 2 Gallon"
+  brand_description: "Coldpack"
+  subcategory_description: "Ice Cream"
+  category_description: "Frozen Desserts"
+  department_description: "Frozen Foods"
+  fat_content: "Non-Fat"
+
+product_6:
+  id: 6
+  product_description: "Light and Creamy Butter Pecan 1 Pint"
+  brand_description: "Freshlike"
+  subcategory_description: "Ice Cream"
+  category_description: "Frozen Desserts"
+  department_description: "Frozen Foods"
+  fat_content: "Reduced Fat"
+
+product_7:
+  id: 7
+  product_description: "Chocolate Lovers 1/2 Gallon"
+  brand_description: "Frigid"
+  subcategory_description: "Ice Cream"
+  category_description: "Frozen Desserts"
+  department_description: "Frozen Foods"
+  fat_content: "Regular Fat"
+
+product_8:
+  id: 8
+  product_description: "Strawberry Ice Creamy 1 Pint"
+  brand_description: "Icy"
+  subcategory_description: "Ice Cream"
+  category_description: "Frozen Desserts"
+  department_description: "Frozen Foods"
+  fat_content: "Reduced Fat"
+
+product_9:
+  id: 9
+  product_description: "Icy Ice Cream Sandwiches"
+  brand_description: "Icy"
+  subcategory_description: "Novelties"
+  category_description: "Frozen Desserts"
+  department_description: "Frozen Foods"
+  fat_content: "Regular Fat"
+
