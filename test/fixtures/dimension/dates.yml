@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+unknown:
+  calendar_week_number:
+  date: 0000-00-00
+  day_of_week:
+  days_in_month:
+  full_description: "Unknown Date"
+  month:
+  month_name:
+  quarter:
+  week_number:
+  weeks_in_month:
+  year:
+
+future:
+  calendar_week_number:
+  date: 9999-12-31
+  day_of_week:
+  days_in_month:
+  full_description: "To Be Determined"
+  month:
+  month_name:
+  quarter:
+  week_number:
+  weeks_in_month:
+  year:

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @dimension_date %>
+
+<div>
+  <%= link_to "Edit this date", edit_dimension_date_path(@dimension_date) %> |
+  <%= link_to "Back to dates", dimension_dates_path %>
+
+  <%= button_to "Destroy this date", @dimension_date, method: :delete %>
+</div>

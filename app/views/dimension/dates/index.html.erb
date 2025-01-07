@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Dates</h1>
+
+<div id="dimension_dates">
+  <% @dimension_dates.each do |dimension_date| %>
+    <%= render dimension_date %>
+    <p>
+      <%= link_to "Show this date", dimension_date %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New date", new_dimension_date_path %>
