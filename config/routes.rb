@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
+  root "retail_sale_metrics#index"
+
+  resources :retail_sale_metrics, only: ["index"]
+
   namespace :fact do
     resources :retail_sales
   end
+
   namespace :dimension do
     resources :products
     resources :dates

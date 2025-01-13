@@ -1,0 +1,41 @@
+<h1>Retail Sale Metrics</h1>
+
+<div id="retail_sale_metrics">
+  <% @metrics.each do |metrics| %>
+    <p>
+      Total Sales:
+      <%= metrics.sales_count %>
+    </p>
+
+    <p>
+      Average Regular Unit Price:
+      <%= number_to_currency metrics.average_regular_unit_price %>
+    </p>
+
+    <p>
+      Average Discount Unit Price:
+      <%= number_to_currency metrics.average_discount_unit_price %>
+    </p>
+
+    <p>
+      Average Net Unit Price:
+      <%= number_to_currency metrics.average_net_unit_price %>
+    </p>
+
+    <p>
+      Small Profit Percentage:
+      <%= metrics.small_profit_percentage_metric.display_value %>%
+    </p>
+
+    <p>
+      Medium Profit Percentage:
+      <%= metrics.medium_profit_percentage_metric.display_value %>%
+    </p>
+
+    <p>
+      Large Profit Percentage:
+      <%= metrics.large_profit_percentage_metric.display_value %>%
+    </p>
+  <% end %>
+</div>
+
