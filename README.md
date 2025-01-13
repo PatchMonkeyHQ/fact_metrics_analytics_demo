@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demo app showing some common use case examples for the FactMetrics
+gem.
 
-Things you may want to cover:
+To get up and running clone the repo and from the app directory install the
+gems:
 
-* Ruby version
+```
+bundle
+```
 
-* System dependencies
+Then start the rails server:
 
-* Configuration
+```
+bin/rails server
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Visiting http://localhost:3000 in your browser will take you to the metrics
+index page where you can view the metrics being loaded.
